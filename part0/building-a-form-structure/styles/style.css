@@ -1,0 +1,42 @@
+body{
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  margin: 3vh 2vw;
+}
+li{
+  list-style-type: none;
+}
+h1{
+  background-color: lightblue;
+  outline: none;
+  border-radius: 15%;
+  display: inline-block;
+  padding: 5px 15px 5px 15px;
+  margin: 0;
+}
+h2{
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+section{
+  padding-left: 2vw;
+}
+section ul{
+  margin: 2px 2px 5px 5px;
+  padding-left: 0;
+}
+button{
+  background-color: lightblue;
+  font-size: 20px;
+  font-family: "Outfit", sans-serif;
+  border: 1px solid grey;
+  margin-top: 2vh;
+  margin-left: 2vw;
+  margin-bottom: 3vh;
+}
+button:hover{
+  box-shadow: 2px 2px 1px grey;
+}
+p{
+  margin: 8px;
+}
