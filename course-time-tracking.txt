@@ -1,6 +1,7 @@
 part0
 	intro -> 1 hour 5 minutes total
 		+ 1 hour 5 minutes | start: 08:26 Jun, 10th 2025 -> finish: 09:31 Jun, 10th 2025
+		
 	0.1 -> 25 minutes total
 		+ 25 minutes | start: 09:34 Jun, 10th 2025 -> finish: 09:59 Jun, 10th 2025
 		
@@ -9,22 +10,20 @@ part0
 		+ 22 minutes | resume: 10:46 Jun, 10th 2025 -> finish: 11:08 Jun, 00th 2025
 		
 	0.3 -> 1 hour 30 minutes total
-		+ 1 hour 30 minutes | start: 13:30 Jun, 10th 2025 -> pause: 15:00 Jun, 10th 2025
-		+  | resume: 00:00 Jun, 11th 2025 -> pause: 00:00 Jun, 11th 2025
+		+ 1 hour 30 minutes | start: 13:30 Jun, 10th 2025 -> finish: 15:00 Jun, 10th 2025
 		
-	0.4 ->  total
-		+  | start: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
-		+  | resume: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
-		+  | resume: 00:00 Jun, 00th 2025 -> finish: 00:00 Jun, 00th 2025
-	0.5 ->  total
-		+  | start: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
-		+  | resume: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
-		+  | resume: 00:00 Jun, 00th 2025 -> finish: 00:00 Jun, 00th 2025
+	0.4 -> 52 minutes total
+		+ 52 minutes | start: 09:49 Jun, 11th 2025 -> finish: 10:41 Jun, 11th 2025
+		
+	0.5 -> 22 minutes total
+		+ 22 minutes | start: 10:42 Jun, 11th 2025 -> finish: 11:04 Jun, 11th 2025
+		
 	0.6 ->  total
 		+  | start: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
 		+  | resume: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
 		+  | resume: 00:00 Jun, 00th 2025 -> finish: 00:00 Jun, 00th 2025
-	total = 1 hour 5 minutes + 25 minutes + 1 hour 30 minutes + ===
+		
+total = 1 hour 5 minutes + 25 minutes + 1 hour 30 minutes + 52 minutes + 22 minutes ===
 	
 part1
 	1.1 ->  total
