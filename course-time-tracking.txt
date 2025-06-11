@@ -18,12 +18,10 @@ part0
 	0.5 -> 22 minutes total
 		+ 22 minutes | start: 10:42 Jun, 11th 2025 -> finish: 11:04 Jun, 11th 2025
 		
-	0.6 ->  total
-		+  | start: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
-		+  | resume: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
-		+  | resume: 00:00 Jun, 00th 2025 -> finish: 00:00 Jun, 00th 2025
+	0.6 -> 5 minutes total (premade the 0.6 exercise during 0.5 accidentally)
+		+ 5 minutes | start: 11:20 Jun, 11th 2025 -> finish: 11::25 Jun, 11th 2025
 		
-total = 1 hour 5 minutes + 25 minutes + 1 hour 30 minutes + 52 minutes + 22 minutes ===
+total = 1 hour 5 minutes + 25 minutes + 25 minutes + 1 hour 30 minutes + 52 minutes + 22 minutes + 5 minutes === 4 hours 44 minutes == 4.73 hours
 	
 part1
 	1.1 ->  total
