@@ -54,54 +54,40 @@ part1
 	[Mozilla's JavaScript Language overview] -> 1 hour 15 minutes total
 		+ 1 hour 15 minutes | start: 13:02 Jun, 12th 2025 -> finish: 14:17 Jun, 12th 2025
 	
-	intro c ->  total
-		+  | start: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
-		+  | resume: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
-		+  | resume: 00:00 Jun, 00th 2025 -> finish: 00:00 Jun, 00th 2025
+	intro c -> 28 minutes total
+		+ 9 minutes | start: 10:15 Jun, 13th 2025 -> pause: 10:24 Jun, 13th 2025
+		+ 19 minutes | resume: 10:32 Jun, 13th 2025 -> finish: 10:51 Jun, 13th 2025
 	
-	1.6 ->  total
-		+  | start: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
-		+  | resume: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
-		+  | resume: 00:00 Jun, 00th 2025 -> finish: 00:00 Jun, 00th 2025
+	intro d -> 40 minutes total
+		+ 31 minutes | start: 11:25 Jun, 13th 2025 -> pause: 11:56 Jun, 13th 2025
+		+ 9 minutes | resume: 13:46 Jun, 13th 2025 -> finish: 13:55 Jun, 00th 2025
 	
-	1.7 ->  total
-		+  | start: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
-		+  | resume: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
-		+  | resume: 00:00 Jun, 00th 2025 -> finish: 00:00 Jun, 00th 2025
+	1.6 -> 28 minutes total
+		+ 28 minutes | start: 13:56 Jun, 13th 2025 -> finish: 14:24 Jun, 13th 2025
 	
-	1.8 ->  total
-		+  | start: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
-		+  | resume: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
-		+  | resume: 00:00 Jun, 00th 2025 -> finish: 00:00 Jun, 00th 2025
+	1.7 -> 31 minutes total
+		+ 31 minutes | start: 14:25 Jun, 13th 2025 -> finish: 14:56 Jun, 13th 2025
 	
-	1.9 ->  total
-		+  | start: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
-		+  | resume: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
-		+  | resume: 00:00 Jun, 00th 2025 -> finish: 00:00 Jun, 00th 2025
+	1.8 -> 4 minutes total (accidentally done 1.8 during 1.7, just had to chance name from Content to Statistics)
+		+ 4 minutes | start: 14:59 Jun, 13th 2025 -> finish: 15:03 Jun, 13th 2025
 	
-	1.10 ->  total
-		+  | start: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
-		+  | resume: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
-		+  | resume: 00:00 Jun, 00th 2025 -> finish: 00:00 Jun, 00th 2025
+	1.9 -> 2 minutes total
+		+ 2 minutes | start: 15:04 Jun, 13th 2025 -> finish: 15:06 Jun, 13th 2025
 	
-	1.11 ->  total
-		+  | start: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
-		+  | resume: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
-		+  | resume: 00:00 Jun, 00th 2025 -> finish: 00:00 Jun, 00th 2025
+	1.10 -> 6 minutes total
+		+ 6 minutes | start: 15:07 Jun, 13th 2025 -> finish: 15:13 Jun, 13th 2025
 	
-	1.12 ->  total
-		+  | start: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
-		+  | resume: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
-		+  | resume: 00:00 Jun, 00th 2025 -> finish: 00:00 Jun, 00th 2025
+	1.11 -> 7 minutes total
+		+ 7 minutes | start: 15:16 Jun, 13th 2025 -> finish: 15:23 Jun, 13th 2025
 	
-	1.13 ->  total
-		+  | start: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
-		+  | resume: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
-		+  | resume: 00:00 Jun, 00th 2025 -> finish: 00:00 Jun, 00th 2025
+	1.12 -> 16 minutes total
+		+ 16 minutes | start: 15:24 Jun, 13th 2025 -> finish: 15:40 Jun, 13th 2025
 	
-	1.14 ->  total
-		+  | start: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
-		+  | resume: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
-		+  | resume: 00:00 Jun, 00th 2025 -> finish: 00:00 Jun, 00th 2025
+	1.13 -> 15 minutes total
+		+ 15 minutes | start: 15:42 Jun, 13th 2025 -> finish: 15:57 Jun, 13th 2025
 	
-total = 46 minutes + 25 minutes + 15 minutes + 19 minutes + 5 minutes + 18 minutes + 4 minutes + 12 minutes +  +  +  +  +  +  +  ===  hours  minutes ==  hours
+	1.14 -> 15 minutes total
+		+ 15 minutes | start: 15:58 Jun, 13th 2025 -> finish: 16:13 Jun, 13th 2025
+	
+total = 46 minutes + 25 minutes + 15 minutes + 19 minutes + 5 minutes + 18 minutes + 4 minutes + 12 minutes + 28 minutes + 40 minutes + 28 minutes + 31 minutes + 4 minutes + 
+	2 minutes + 6 minutes + 7 minutes + 16 minutes + 15 minutes + 15 minutes === 336 minutes == 5 hours 36 minutes == 5.6 hours
