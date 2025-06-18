@@ -7,7 +7,6 @@ const searchAll = () => {
 }
 
 const searchBy = (search) => {
-  console.log(`${baseUrl}${search}`)
   const request = axios.get(`${baseUrl}/name/${search}`)
   return request.then(response => response.data)
 }

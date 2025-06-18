@@ -1,4 +1,5 @@
 import React from 'react'
+import './app.css'
 import { useState } from 'react'
 import searchService from './services/countries'
 import SearchBar from './components/SearchBar'
@@ -10,17 +11,11 @@ const App = () => {
   const [searchResult, setSearchResult] = useState({'result':null,'content':null})
   const [countries, setCountries] = useState(null)
 
-  /*
-    if == 0 setSearchResult({'failed',null})
-    if == 1 setSearchResult({'single',[result]})
-    if > 1 setSearchResult({'multiple',[result]})
-  */
-
   useEffect(() => {
     searchService
       .searchAll()
       .then(allCountries => {
-        setCountries(allCountries.map((country) => country.name))
+        setCountries(allCountries.map((country) => country.name.common))
       })
   }, [])
 
@@ -28,20 +23,31 @@ const App = () => {
     return null
   }
 
-  const searchCountry = (event) => {
+  const defineSearch = (event) => {
     event.preventDefault()
     if (search != ''){
       let matchCountries = countries.filter((country) =>
-        country.common.toLowerCase().includes(search.toLowerCase()) || country.official.toLowerCase().includes(search.toLowerCase))
+        country.toLowerCase().includes(search.toLowerCase())).sort()
+      searchCountry(matchCountries)
+    }
+  }
 
-      if (matchCountries.length === 1){
-        searchService
-        .searchBy(matchCountries[0].common)
-        .then(data => {
-          console.log(data)
-        })
-      }
-
+  const searchCountry = (matchCountries) => {
+    if (matchCountries.length === 0) {
+      setSearchResult({'result':'none','content':null})
+    }
+    else if (matchCountries.length === 1){
+      searchService
+      .searchBy(matchCountries[0])
+      .then(data => {
+        setSearchResult({'result':'single','content':{data}})
+      })
+    }
+    else if (matchCountries.length > 10){
+      setSearchResult({'result':'too-many','content':null})
+    }
+    else {
+      setSearchResult({'result':'multiple','content':matchCountries})
     }
   }
 
@@ -51,9 +57,8 @@ const App = () => {
 
   return (
     <div>
-      <p>debug: {search}</p>
-      <SearchBar value={search} handler={handleSearchChange} onSubmit={searchCountry} />
-      <Result value={search} />
+      <SearchBar value={search} handler={handleSearchChange} onSubmit={defineSearch} />
+      <Result result={searchResult.result} content={searchResult.content} handlers={{searchCountry, setSearch}}/>
     </div>
   )
 }

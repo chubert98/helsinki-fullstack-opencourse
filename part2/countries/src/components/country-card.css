@@ -1,0 +1,8 @@
+.country-name {
+  font-size: 30px;
+}
+
+.country-flag {
+  max-width: 30vw;
+  border: 1px solid lightgray;
+}
