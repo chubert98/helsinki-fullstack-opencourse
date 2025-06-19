@@ -178,3 +178,140 @@ part2
 total = 29 minutes + 15 minutes + 15 minutes + 14 minutes + 2 minutes + 22 minutes + 19 minutes + 23 minutes + 5 minutes + 14 minutes + 20 minutes + 36 minutes + 7 minutes + 
 	46 minutes + 12 minutes + 36 minutes + 9 minutes + 14 minutes + 19 minutes + 7 minutes + 10 minutes + 3 hours 49 minutes === 603 minutes ==  10 hours 3 minutes == 10.05 hours
 extra content = 10 minutes + 10 minutes + 11 minutes + 15 minutes === 46 minutes == 0 hours 46 minutes == 0.77 hours
+
+part3
+	intro a -> 1 hour 6 minutes total
+		+ 8 minutes | start: 10:26 Jun, 19th 2025 -> pause: 10:34 Jun, 19th 2025
+		+ 58 minutes | resume: 10:41 Jun, 19th 2025 -> finish: 11:39 Jun, 19th 2025
+		
+	3.1 -> 20 minutes total
+		+ 20 minutes | start: 12:40 Jun, 19th 2025 -> finish: 13:00 Jun, 19th 2025
+		
+	3.2 -> 19 minutes total
+		+ 19 minutes | start: 13:01 Jun, 19th 2025 -> finish: 13:20 Jun, 19th 2025
+		
+	3.3 -> 2 minutes total (had already done most of it during 3.1)
+		+ 2 minutes | start: 13:20 Jun, 19th 2025 -> finish: 13:22 Jun, 19th 2025
+		
+	3.4 -> 13 minutes total
+		+ 13 minutes | start: 13:23 Jun, 19th 2025 -> finish: 13:36 Jun, 19th 2025
+		
+	3.5 -> 20 minutes total
+		+ 20 minutes | start: 13:36 Jun, 19th 2025 -> finish: 13:56 Jun, 19th 2025
+		
+	3.6 -> 13 minutes total
+		+ 13 minutes | start: 13:57 Jun, 19th 2025 -> finish: 14:10 Jun, 19th 2025
+		
+	resuming a -> 16 minutes total
+		+ 16 minutes | start: 14:12 Jun, 19th 2025 -> finish: 14:28 Jun, 19th 2025
+		
+	3.7 -> 39 minutes total
+		+ 36 minutes | start: 14:29 Jun, 19th 2025 -> pause: 15:05 Jun, 19th 2025
+		+ 3 minutes | resume: 15:10 Jun, 19th 2025 -> finish: 15:13 Jun, 19th 2025
+		
+	3.8 -> 6 minutes total
+		+ 6 minutes | start: 15:13 Jun, 19th 2025 -> finish: 15:19 Jun, 19th 2025
+		
+	intro b ->  minutes total
+		+  minutes | start: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
+		+  minutes | resume: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
+		+  minutes | resume: 00:00 Jun, 00th 2025 -> finish: 00:00 Jun, 00th 2025
+		
+	3.9 ->  minutes total
+		+  minutes | start: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
+		+  minutes | resume: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
+		+  minutes | resume: 00:00 Jun, 00th 2025 -> finish: 00:00 Jun, 00th 2025
+		
+	3.10 ->  minutes total
+		+  minutes | start: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
+		+  minutes | resume: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
+		+  minutes | resume: 00:00 Jun, 00th 2025 -> finish: 00:00 Jun, 00th 2025
+		
+	3.11 ->  minutes total
+		+  minutes | start: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
+		+  minutes | resume: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
+		+  minutes | resume: 00:00 Jun, 00th 2025 -> finish: 00:00 Jun, 00th 2025
+		
+	intro c ->  minutes total
+		+  minutes | start: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
+		+  minutes | resume: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
+		+  minutes | resume: 00:00 Jun, 00th 2025 -> finish: 00:00 Jun, 00th 2025
+		
+	3.12 ->  minutes total
+		+  minutes | start: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
+		+  minutes | resume: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
+		+  minutes | resume: 00:00 Jun, 00th 2025 -> finish: 00:00 Jun, 00th 2025
+		
+	resuming c ->  minutes total
+		+  minutes | start: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
+		+  minutes | resume: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
+		+  minutes | resume: 00:00 Jun, 00th 2025 -> finish: 00:00 Jun, 00th 2025
+		
+	3.13 ->  minutes total
+		+  minutes | start: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
+		+  minutes | resume: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
+		+  minutes | resume: 00:00 Jun, 00th 2025 -> finish: 00:00 Jun, 00th 2025
+		
+	3.14 ->  minutes total
+		+  minutes | start: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
+		+  minutes | resume: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
+		+  minutes | resume: 00:00 Jun, 00th 2025 -> finish: 00:00 Jun, 00th 2025
+		
+	resuming c ->  minutes total
+		+  minutes | start: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
+		+  minutes | resume: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
+		+  minutes | resume: 00:00 Jun, 00th 2025 -> finish: 00:00 Jun, 00th 2025
+		
+	3.15 ->  minutes total
+		+  minutes | start: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
+		+  minutes | resume: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
+		+  minutes | resume: 00:00 Jun, 00th 2025 -> finish: 00:00 Jun, 00th 2025
+		
+	3.16 ->  minutes total
+		+  minutes | start: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
+		+  minutes | resume: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
+		+  minutes | resume: 00:00 Jun, 00th 2025 -> finish: 00:00 Jun, 00th 2025
+		
+	3.17 ->  minutes total
+		+  minutes | start: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
+		+  minutes | resume: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
+		+  minutes | resume: 00:00 Jun, 00th 2025 -> finish: 00:00 Jun, 00th 2025
+		
+	3.18 ->  minutes total
+		+  minutes | start: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
+		+  minutes | resume: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
+		+  minutes | resume: 00:00 Jun, 00th 2025 -> finish: 00:00 Jun, 00th 2025
+		
+	intro d ->  minutes total
+		+  minutes | start: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
+		+  minutes | resume: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
+		+  minutes | resume: 00:00 Jun, 00th 2025 -> finish: 00:00 Jun, 00th 2025
+		
+	3.19 ->  minutes total
+		+  minutes | start: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
+		+  minutes | resume: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
+		+  minutes | resume: 00:00 Jun, 00th 2025 -> finish: 00:00 Jun, 00th 2025
+		
+	3.20 ->  minutes total
+		+  minutes | start: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
+		+  minutes | resume: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
+		+  minutes | resume: 00:00 Jun, 00th 2025 -> finish: 00:00 Jun, 00th 2025
+		
+	3.21 ->  minutes total
+		+  minutes | start: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
+		+  minutes | resume: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
+		+  minutes | resume: 00:00 Jun, 00th 2025 -> finish: 00:00 Jun, 00th 2025
+		
+	resuming d ->  minutes total
+		+  minutes | start: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
+		+  minutes | resume: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
+		+  minutes | resume: 00:00 Jun, 00th 2025 -> finish: 00:00 Jun, 00th 2025
+		
+	3.22 ->  minutes total
+		+  minutes | start: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
+		+  minutes | resume: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
+		+  minutes | resume: 00:00 Jun, 00th 2025 -> finish: 00:00 Jun, 00th 2025
+
+total = 1 hour 6 minutes + 20 minutes + 19 minutes + 2 minutes + 13 minutes + 20 minutes + 13 minutes + 16 minutes + 39 minutes + 6 minutes +  minutes +  minutes +  minutes + 
+	 minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes ===  minutes ==   hours  minutes ==  hours
+extra content =  minutes +  minutes +  minutes +  minutes ===  minutes ==  hours  minutes ==  hours
