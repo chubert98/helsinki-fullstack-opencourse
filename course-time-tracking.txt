@@ -213,8 +213,8 @@ part3
 		+ 6 minutes | start: 15:13 Jun, 19th 2025 -> finish: 15:19 Jun, 19th 2025
 		
 	intro b ->  minutes total
-		+  minutes | start: 11:08 Jun, 20th 2025 -> pause: 00:00 Jun, 00th 2025
-		+  minutes | resume: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
+		+ 50 minutes | start: 11:08 Jun, 20th 2025 -> pause: 11:58 Jun, 20th 2025
+		+  minutes | resume: 13:39 Jun, 20th 2025 -> pause: 00:00 Jun, 00th 2025
 		+  minutes | resume: 00:00 Jun, 00th 2025 -> finish: 00:00 Jun, 00th 2025
 		
 	3.9 ->  minutes total
