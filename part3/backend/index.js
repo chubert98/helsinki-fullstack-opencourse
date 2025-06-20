@@ -19,6 +19,19 @@ let notes = [
   }
 ]
 
+let people = [
+  {
+    "name": "Arto Hellas",
+    "number": "040-123456",
+    "id": "1"
+  },
+  {
+    "name": "Ada Lovelace",
+    "number": "39-44-5323523",
+    "id": "2"
+  }
+]
+
 const requestLogger = (request, response, next) => {
   console.log('Method:', request.method)
   console.log('Path:', request.path)
@@ -31,6 +44,7 @@ app.use(express.json())
 app.use(requestLogger)
 app.use(express.static('dist'))
 
+// Notes
 const generateId = () => {
   const maxId = notes.length > 0
   ? Math.max(...notes.map(n => Number(n.id)))
@@ -83,6 +97,26 @@ app.post('/api/notes', (request, response) => {
   notes = notes.concat(note)
 
   response.json(note)
+})
+
+// Phonebook
+app.get('/', (request, response) => {
+  response.send('<h1>Hello World!</h1>')
+})
+
+app.get('/api/people', (request, response) => {
+  response.json(people)
+})
+
+app.get('/api/people/:id', (request, response) => {
+  const id = request.params.id
+  const person = people.find(person => person.id === id)
+
+  if (person){
+    response.json(person)
+  } else {
+    response.status(404).end()
+  }
 })
 
 const unknownEndpoint = (request, response) => {
