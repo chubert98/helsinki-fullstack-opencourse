@@ -252,35 +252,23 @@ part3
 	3.18 -> 7 minutes total
 		+ 7 minutes | start: 15:18 Jun, 23rd 2025 -> finish: 15:25 Jun, 23rd 2025
 		
-	intro d ->  minutes total
-		+  minutes | start: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
-		+  minutes | resume: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
-		+  minutes | resume: 00:00 Jun, 00th 2025 -> finish: 00:00 Jun, 00th 2025
+	intro d -> 17 minutes total
+		+ 17 minutes | start: 15:31 Jun, 23rd 2025 -> finish: 15:48 Jun, 23rd 2025
 		
-	3.19 ->  minutes total
-		+  minutes | start: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
-		+  minutes | resume: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
-		+  minutes | resume: 00:00 Jun, 00th 2025 -> finish: 00:00 Jun, 00th 2025
+	3.19 -> 14 minutes total
+		+ 14 minutes | start: 15:49 Jun, 23rd 2025 -> finish: 16:03 Jun, 23rd 2025
 		
-	3.20 ->  minutes total
-		+  minutes | start: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
-		+  minutes | resume: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
-		+  minutes | resume: 00:00 Jun, 00th 2025 -> finish: 00:00 Jun, 00th 2025
+	3.20 -> 43 minutes total
+		+ 43 minutes | start: 16:04 Jun, 23rd 2025 -> finish: 16:47 Jun, 23rd 2025
 		
-	3.21 ->  minutes total
-		+  minutes | start: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
-		+  minutes | resume: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
-		+  minutes | resume: 00:00 Jun, 00th 2025 -> finish: 00:00 Jun, 00th 2025
+	3.21 -> 6 minutes total
+		+ 6 minutes | start: 16:47 Jun, 23rd 2025 -> finish: 16:52 Jun, 23rd 2025
 		
-	resuming d ->  minutes total
-		+  minutes | start: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
-		+  minutes | resume: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
-		+  minutes | resume: 00:00 Jun, 00th 2025 -> finish: 00:00 Jun, 00th 2025
+	resuming d -> 15 minutes total
+		+ 15 minutes | start: 16:54 Jun, 23rd 2025 -> finish: 17:09 Jun, 23rd 2025
 		
-	3.22 ->  minutes total
-		+  minutes | start: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
-		+  minutes | resume: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
-		+  minutes | resume: 00:00 Jun, 00th 2025 -> finish: 00:00 Jun, 00th 2025
+	3.22 -> 2 minutes total
+		+ 2 minutes | start: 17:10 Jun, 23rd 2025 -> finish: 17:12 Jun, 23rd 2025
 
-total = 1 hour 6 minutes + 20 minutes + 19 minutes + 2 minutes + 13 minutes + 20 minutes + 13 minutes + 16 minutes + 39 minutes + 6 minutes + 2 hours 11 minutes + 1 hour 11 minutes + 33 minutes + 14 minutes + 40 minutes + 12 minutes + 23 minutes + 37 minutes + 4 minutes + 3 minutes + 7 minutes +  minutes ===  minutes ==   hours  minutes ==  hours
-extra content =  minutes +  minutes +  minutes +  minutes ===  minutes ==  hours  minutes ==  hours
+total = 1 hour 6 minutes + 20 minutes + 19 minutes + 2 minutes + 13 minutes + 20 minutes + 13 minutes + 16 minutes + 39 minutes + 6 minutes + 2 hours 11 minutes + 1 hour 11 minutes + 33 minutes + 14 minutes + 40 minutes + 12 minutes + 23 minutes + 37 minutes + 4 minutes + 3 minutes + 7 minutes + 17 minutes + 14 minutes + 43 minutes + 6 minutes + 15 minutes + 2 minutes === 686 minutes == 11 hours 26 minutes == 11.43 hours
+extra content = 1 hour 1 minutes + 10 minutes === 71 minutes == 1 hour 11 minutes == 1.183 hour

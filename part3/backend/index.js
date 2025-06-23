@@ -53,12 +53,6 @@ app.delete('/api/notes/:id', (request, response, next) => {
 app.post('/api/notes', (request, response, next) => {
   const body = request.body
 
-  if (!body.content){
-    return response.status(400).json({
-      error: 'content missing'
-    })
-  }
-
   const note = new Note({
     content: body.content,
     important: body.important || false,
@@ -124,7 +118,9 @@ app.post('/api/people', (request, response, next) => {
     .then(savedPerson => {
       response.json(savedPerson)
     })
-    .catch(error => next(error))
+    .catch(error => {
+      next(error)
+    })
 })
 
 app.delete('/api/people/:id', (request, response, next) => {
@@ -136,7 +132,7 @@ app.delete('/api/people/:id', (request, response, next) => {
 })
 
 app.put('/api/people/:id', (request, response, next) => {
-  const { name, number } = request.body
+  const body = request.body
 
   Person.findById(request.params.id)
     .then(person => {
@@ -144,7 +140,7 @@ app.put('/api/people/:id', (request, response, next) => {
         return response.status(404).end()
       }
 
-      person.number = number
+      person.number = body.number
 
       return person.save().then((updatedPerson) => {
         response.json(updatedPerson)
@@ -175,7 +171,9 @@ const errorHandler = (error, request, response, next) => {
   console.error(error.message)
 
   if (error.name === 'CastError') {
-    return response.status(400).send({ error: 'malformatted id'})
+    return response.status(400).send({ error: 'malformatted id' })
+  } else if (error.name === 'ValidationError') {
+    return response.status(400).send({ error: error.message })
   }
 
   next(error)

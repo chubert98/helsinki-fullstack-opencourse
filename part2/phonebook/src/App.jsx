@@ -63,6 +63,12 @@ const App = () => {
           setNewName('')
           setNewNumber('')
         })
+        .catch(error => {
+          setMessage({type: 'error', content: "Valores inválidos"})
+          setTimeout(() => {
+            setMessage({type: 'success',content:null})
+          }, 5000)
+        })
     }
   }
 
