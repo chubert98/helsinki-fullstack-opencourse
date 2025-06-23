@@ -34,10 +34,10 @@ const App = () => {
         peopleService
           .update(existingPerson.id, personObject)
           .then(returnedPerson => {
-            setMessage({type: 'success',content:`Added ${returnedPerson.name}`})
+            setMessage({type: 'success',content:`Updated ${returnedPerson.name}`})
             setTimeout(() => {
               setMessage({type: 'success',content:null})
-            }, 5000)
+            }, 3000)
             setPeople(people.map((person) => returnedPerson.id === person.id ? returnedPerson : person))
             setNewName('')
             setNewNumber('')
@@ -46,7 +46,7 @@ const App = () => {
             setMessage({type: 'error',content:`Information of ${existingPerson.name} has already been removed from server`})
             setTimeout(() => {
               setMessage({type: 'success',content:null})
-            }, 5000)
+            }, 3000)
           })
       }
     }
@@ -58,7 +58,7 @@ const App = () => {
           setMessage({type: 'success',content:`Added ${returnedPerson.name}`})
           setTimeout(() => {
             setMessage({type: 'success',content:null})
-          }, 5000)
+          }, 3000)
           setPeople(people.concat(returnedPerson))
           setNewName('')
           setNewNumber('')
@@ -66,12 +66,16 @@ const App = () => {
     }
   }
 
-  const deletePerson = person => {
+  const deletePerson = (person) => {
     if(confirm(`Delete ${person.name}?`)){
       peopleService
         .deleteFromDB(person.id)
-        .then(returnedPerson => {
-          setPeople(people.filter((person) => person.id !== returnedPerson.id))
+        .then(result => {
+          setMessage({type: 'success',content:`Deleted ${person.name}`})
+          setTimeout(() => {
+            setMessage({type: 'success',content:null})
+          }, 3000)
+          setPeople(people.filter((x) => x.id !== person.id))
         })
     }
   }
