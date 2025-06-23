@@ -228,25 +228,14 @@ part3
 				+ 10 minutes | start: 10:48 Jun, 23rd 2025 -> finish: 10:58 Jun, 23rd 2025
 		+ 28 minutes | resume: 10:59 Jun, 23rd 2025 -> finish: 11:27 Jun, 23rd 2025
 		
-	3.12 ->  minutes total
-		+  minutes | start: 12:50 Jun, 23rd 2025 -> pause: 00:00 Jun, 00th 2025
-		+  minutes | resume: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
-		+  minutes | resume: 00:00 Jun, 00th 2025 -> finish: 00:00 Jun, 00th 2025
+	3.12 -> 14 minutes total
+		+ 14 minutes | start: 12:50 Jun, 23rd 2025 -> finish: 13:04 Jun, 23rd 2025
 		
-	resuming c ->  minutes total
-		+  minutes | start: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
-		+  minutes | resume: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
-		+  minutes | resume: 00:00 Jun, 00th 2025 -> finish: 00:00 Jun, 00th 2025
+	resuming c -> 40 minutes total
+		+ 40 minutes | start: 13:05 Jun, 23rd 2025 -> finish: 13:45 Jun, 23rd 2025
 		
-	3.13 ->  minutes total
-		+  minutes | start: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
-		+  minutes | resume: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
-		+  minutes | resume: 00:00 Jun, 00th 2025 -> finish: 00:00 Jun, 00th 2025
-		
-	3.14 ->  minutes total
-		+  minutes | start: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
-		+  minutes | resume: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
-		+  minutes | resume: 00:00 Jun, 00th 2025 -> finish: 00:00 Jun, 00th 2025
+	3.13/3.14 -> 12 minutes total
+		+ 12 minutes | start: 13:47 Jun, 23rd 2025 -> finish: 13:59 Jun, 23rd 2025
 		
 	resuming c ->  minutes total
 		+  minutes | start: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
@@ -303,5 +292,5 @@ part3
 		+  minutes | resume: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
 		+  minutes | resume: 00:00 Jun, 00th 2025 -> finish: 00:00 Jun, 00th 2025
 
-total = 1 hour 6 minutes + 20 minutes + 19 minutes + 2 minutes + 13 minutes + 20 minutes + 13 minutes + 16 minutes + 39 minutes + 6 minutes + 2 hours 11 minutes + 1 hour 11 minutes + 33 minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes ===  minutes ==   hours  minutes ==  hours
+total = 1 hour 6 minutes + 20 minutes + 19 minutes + 2 minutes + 13 minutes + 20 minutes + 13 minutes + 16 minutes + 39 minutes + 6 minutes + 2 hours 11 minutes + 1 hour 11 minutes + 33 minutes + 14 minutes + 40 minutes + 12 minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes ===  minutes ==   hours  minutes ==  hours
 extra content =  minutes +  minutes +  minutes +  minutes ===  minutes ==  hours  minutes ==  hours
