@@ -219,13 +219,17 @@ part3
 	3.9/3.10/3.11 -> 1 hour 11 minutes total
 		+ 1 hour 11 minutes | start: 15:00 Jun, 20th 2025 -> finish: 16:11 Jun, 20th 2025
 		
-	intro c ->  minutes total
-		+  minutes | start: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
-		+  minutes | resume: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
-		+  minutes | resume: 00:00 Jun, 00th 2025 -> finish: 00:00 Jun, 00th 2025
+	intro c -> 33 minutes total
+		+ 5 minutes | start: 09:10 Jun, 23rd 2025 -> pause: 09:15 Jun, 23rd 2025
+			[collection chapter on MongoDB manual] -> 1 hour 1 minutes minutes total
+				+ 50 minutes | start: 09:17 Jun, 23rd 2025 -> pause: 10:07 Jun, 23rd 2025
+				+ 11 minutes | resume: 10:25 Jun, 23rd 2025 -> finish: 10:36 Jun, 23rd 2025
+			[documents chapter on MongoDB manual] -> 10 minutes total
+				+ 10 minutes | start: 10:48 Jun, 23rd 2025 -> finish: 10:58 Jun, 23rd 2025
+		+ 28 minutes | resume: 10:59 Jun, 23rd 2025 -> finish: 11:27 Jun, 23rd 2025
 		
 	3.12 ->  minutes total
-		+  minutes | start: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
+		+  minutes | start: 12:50 Jun, 23rd 2025 -> pause: 00:00 Jun, 00th 2025
 		+  minutes | resume: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
 		+  minutes | resume: 00:00 Jun, 00th 2025 -> finish: 00:00 Jun, 00th 2025
 		
@@ -299,6 +303,5 @@ part3
 		+  minutes | resume: 00:00 Jun, 00th 2025 -> pause: 00:00 Jun, 00th 2025
 		+  minutes | resume: 00:00 Jun, 00th 2025 -> finish: 00:00 Jun, 00th 2025
 
-total = 1 hour 6 minutes + 20 minutes + 19 minutes + 2 minutes + 13 minutes + 20 minutes + 13 minutes + 16 minutes + 39 minutes + 6 minutes +  minutes +  minutes +  minutes + 
-	 minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes ===  minutes ==   hours  minutes ==  hours
+total = 1 hour 6 minutes + 20 minutes + 19 minutes + 2 minutes + 13 minutes + 20 minutes + 13 minutes + 16 minutes + 39 minutes + 6 minutes + 2 hours 11 minutes + 1 hour 11 minutes + 33 minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes ===  minutes ==   hours  minutes ==  hours
 extra content =  minutes +  minutes +  minutes +  minutes ===  minutes ==  hours  minutes ==  hours
