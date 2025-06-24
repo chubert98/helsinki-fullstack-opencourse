@@ -280,35 +280,20 @@ part4
 	4.1/4.2 -> 62 minutes total
 		+ 62 minutes | start: 12:55 Jun, 24th 2025 -> finish: 13:57 Jun, 24th 2025
 
-	resuming a ->  minutes total
-		+  minutes | start: : Jun, th 2025 -> pause: : Jun, th 2025
-		+  minutes | resume: : Jun, th 2025 -> pause: : Jun, th 2025
-		+  minutes | resume: : Jun, th 2025 -> finish: : Jun, th 2025
+	resuming a -> 18 minutes total
+		+ 18 minutes | start: 14:03 Jun, 24th 2025 -> finish: 14:21 Jun, 24th 2025
 		
-	4.3 ->  minutes total
-		+  minutes | start: : Jun, th 2025 -> pause: : Jun, th 2025
-		+  minutes | resume: : Jun, th 2025 -> pause: : Jun, th 2025
-		+  minutes | resume: : Jun, th 2025 -> finish: : Jun, th 2025
+	4.3/4.4 -> 18 minutes total
+		+ 18 minutes | start: 14:38 Jun, 24th 2025 -> finish: 14:56 Jun, 24th 2025
 		
-	4.4 ->  minutes total
-		+  minutes | start: : Jun, th 2025 -> pause: : Jun, th 2025
-		+  minutes | resume: : Jun, th 2025 -> pause: : Jun, th 2025
-		+  minutes | resume: : Jun, th 2025 -> finish: : Jun, th 2025
+	4.5 -> 11 minutes total
+		+ 11 minutes | start: 14:57 Jun, 24th 2025 -> finish: 15:08 Jun, 24th 2025
 		
-	4.5 ->  minutes total
-		+  minutes | start: : Jun, th 2025 -> pause: : Jun, th 2025
-		+  minutes | resume: : Jun, th 2025 -> pause: : Jun, th 2025
-		+  minutes | resume: : Jun, th 2025 -> finish: : Jun, th 2025
+	4.6 -> 54 minutes total
+		+ 54 minutes | start: 15:09 Jun, 24th 2025 -> finish: 16:03 Jun, 24th 2025
 		
-	4.6 ->  minutes total
-		+  minutes | start: : Jun, th 2025 -> pause: : Jun, th 2025
-		+  minutes | resume: : Jun, th 2025 -> pause: : Jun, th 2025
-		+  minutes | resume: : Jun, th 2025 -> finish: : Jun, th 2025
-				
-	4.7 ->  minutes total
-		+  minutes | start: : Jun, th 2025 -> pause: : Jun, th 2025
-		+  minutes | resume: : Jun, th 2025 -> pause: : Jun, th 2025
-		+  minutes | resume: : Jun, th 2025 -> finish: : Jun, th 2025
+	4.7 -> 6 minutes total
+		+ 6 minutes | start: 16:04 Jun, 24th 2025 -> finish: 16:10 Jun, 24th 2025
 
 	intro b ->  minutes total
 		+  minutes | start: : Jun, th 2025 -> pause: : Jun, th 2025
@@ -410,5 +395,5 @@ part4
 		+  minutes | resume: : Jun, th 2025 -> pause: : Jun, th 2025
 		+  minutes | resume: : Jun, th 2025 -> finish: : Jun, th 2025
 
-total =  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  ===  minutes ==  hours  minutes ==  hours
+total = 131 minutes + 62 minutes + 18 minutes + 18 minutes + 11 minutes + 54 minutes + 6 minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  ===  minutes ==  hours  minutes ==  hours
 extra content =  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes ===  minutes ==  hours  minutes ==  hours
