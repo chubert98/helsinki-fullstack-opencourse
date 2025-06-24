@@ -24,7 +24,7 @@ const note = new Note({
   content: 'GET and POST are the most important methods of HTTP protocol',
   important: true,
 })
-note.save().then(result => {
+note.save().then(() => {
   console.log('note saved!')
   mongoose.connection.close()
 })
