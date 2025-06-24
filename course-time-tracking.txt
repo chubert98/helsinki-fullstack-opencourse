@@ -277,16 +277,9 @@ part4
 	intro a -> 131 minutes total
 		+ 131 minutes | start: 09:37 Jun, 24th 2025 -> finish: 11:48 Jun, 24th 2025
 		
-	4.1 ->  minutes total
-		+  minutes | start: : Jun, th 2025 -> pause: : Jun, th 2025
-		+  minutes | resume: : Jun, th 2025 -> pause: : Jun, th 2025
-		+  minutes | resume: : Jun, th 2025 -> finish: : Jun, th 2025
-		
-	4.2 ->  minutes total
-		+  minutes | start: : Jun, th 2025 -> pause: : Jun, th 2025
-		+  minutes | resume: : Jun, th 2025 -> pause: : Jun, th 2025
-		+  minutes | resume: : Jun, th 2025 -> finish: : Jun, th 2025
-		
+	4.1/4.2 -> 62 minutes total
+		+ 62 minutes | start: 12:55 Jun, 24th 2025 -> finish: 13:57 Jun, 24th 2025
+
 	resuming a ->  minutes total
 		+  minutes | start: : Jun, th 2025 -> pause: : Jun, th 2025
 		+  minutes | resume: : Jun, th 2025 -> pause: : Jun, th 2025

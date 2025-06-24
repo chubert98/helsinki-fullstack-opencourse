@@ -1,0 +1,22 @@
+NEW REACT FRONTEND
+npm create vite@latest [name] -- --template react
+
+
+NEW NODE BACKEND
+-npm init
+-npm install
+-configure package.json
+  - ""start": "node index.js",
+  - "dev": "node --watch index.js",
+  -(optional) "build:ui:[name]": "rm -rf dist && cd ../../part[x]/[frontend-name] && npm run build && cp -r dist ../../part[x]/[name] && cd ../../part[x]/[name] && npm run dev",
+-npm install express
+-npm install dotenv
+-npm install mongoose
+-npm update
+-create folder structure (controllers, models, requests, utils)
+  -create app.js, index.js and .env at project root
+  -create [name].js at controllers
+  -create [name].js at models
+  -create [name].rest at requests
+  -create config.js, logger.js and middleware.js at utils
+-configure fies accordingly (should use previous projects as reference)
