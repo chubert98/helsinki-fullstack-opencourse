@@ -12,6 +12,8 @@ NEW NODE BACKEND
 -npm install express
 -npm install dotenv
 -npm install mongoose
+-npm install cross-env (run project in different environments (test/dev/production))
+-npm install --save-dev supertest
 -npm update
 -create folder structure (controllers, models, requests, utils)
   -create app.js, index.js and .env at project root

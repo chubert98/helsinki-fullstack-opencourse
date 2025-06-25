@@ -3,9 +3,9 @@
   "version": "0.0.1",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "node --watch index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env NODE_ENV=production node index.js",
+    "dev": "cross-env NODE_ENV=development node --watch index.js",
+    "test": "cross-env NODE_ENV=test node --test",
     "build:ui:notes": "rm -rf dist && cd ../../part2/rendering-collections && npm run build && cp -r dist ../../part3/backend && cd ../../part3/backend && npm run dev",
     "build:ui:phonebook": "rm -rf dist && cd ../../part2/phonebook && npm run build && cp -r dist ../../part3/backend && cd ../../part3/backend && npm run dev",
     "lint": "eslint ."
@@ -15,6 +15,7 @@
   "description": "",
   "dependencies": {
     "cheerio": "^1.1.0",
+    "cross-env": "^7.0.3",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
     "mongoose": "^8.16.0"
@@ -23,6 +24,7 @@
     "@eslint/js": "^9.29.0",
     "@stylistic/eslint-plugin-js": "^4.4.1",
     "eslint": "^9.29.0",
-    "globals": "^16.2.0"
+    "globals": "^16.2.0",
+    "supertest": "^7.1.1"
   }
 }

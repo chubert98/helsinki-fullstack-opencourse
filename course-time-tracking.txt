@@ -295,15 +295,12 @@ part4
 	4.7 -> 6 minutes total
 		+ 6 minutes | start: 16:04 Jun, 24th 2025 -> finish: 16:10 Jun, 24th 2025
 
-	intro b ->  minutes total
-		+  minutes | start: : Jun, th 2025 -> pause: : Jun, th 2025
-		+  minutes | resume: : Jun, th 2025 -> pause: : Jun, th 2025
-		+  minutes | resume: : Jun, th 2025 -> finish: : Jun, th 2025
+	intro b -> 119 minutes total
+		+ 21 minutes | start: 08:23 Jun, 25th 2025 -> pause: 08:44 Jun, 25th 2025
+		+ 98 minutes | resume: 09:04 Jun, 25th 2025 -> finish: 10:42 Jun, 25th 2025
 		
-	4.8 ->  minutes total
-		+  minutes | start: : Jun, th 2025 -> pause: : Jun, th 2025
-		+  minutes | resume: : Jun, th 2025 -> pause: : Jun, th 2025
-		+  minutes | resume: : Jun, th 2025 -> finish: : Jun, th 2025
+	4.8 -> 40 minutes total
+		+ 40 minutes | start: 10:50 Jun, 25th 2025 -> finish: 11:30 Jun, 25th 2025
 		
 	4.9 ->  minutes total
 		+  minutes | start: : Jun, th 2025 -> pause: : Jun, th 2025
@@ -395,5 +392,5 @@ part4
 		+  minutes | resume: : Jun, th 2025 -> pause: : Jun, th 2025
 		+  minutes | resume: : Jun, th 2025 -> finish: : Jun, th 2025
 
-total = 131 minutes + 62 minutes + 18 minutes + 18 minutes + 11 minutes + 54 minutes + 6 minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  ===  minutes ==  hours  minutes ==  hours
+total = 131 minutes + 62 minutes + 18 minutes + 18 minutes + 11 minutes + 54 minutes + 6 minutes + 119 minutes + 40 minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  ===  minutes ==  hours  minutes ==  hours
 extra content =  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes ===  minutes ==  hours  minutes ==  hours
