@@ -14,6 +14,8 @@ NEW NODE BACKEND
 -npm install mongoose
 -npm install cross-env (run project in different environments (test/dev/production))
 -npm install --save-dev supertest
+-npm install bcrypt (for generating password hashes)
+-npm install jsonwebtoken (allows generating JSON web tokens)
 -npm update
 -create folder structure (controllers, models, requests, utils)
   -create app.js, index.js and .env at project root

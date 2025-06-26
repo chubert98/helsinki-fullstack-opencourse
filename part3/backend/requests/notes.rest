@@ -6,9 +6,10 @@ GET http://localhost:3001/api/notes/asdasasd
 ###
 POST http://localhost:3001/api/notes
 Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNodWJlcnQiLCJpZCI6IjY4NWQ4YjhhZGE0MGY2MWFkOTNmN2UwYiIsImlhdCI6MTc1MDk2MTUyMH0.5l9Ya_Tm4s-y_dpUVpbVCtVsGoSS9eIqQP9KejD0WsI
 
 {
-    "content": "Ensure that everything still works",
+    "content": "async/await simplifies making async calls",
     "important": true
 }
 
@@ -22,4 +23,26 @@ Content-Type: application/json
 {
     "content": "HTML is easy",
     "important": true
+}
+
+###
+GET http://localhost:3001/api/users
+
+###
+POST http://localhost:3001/api/users
+Content-Type: application/json
+
+{
+    "username": "chubert",
+    "name": "Carlos Hubert",
+    "password": "senha124"
+}
+
+###
+POST http://localhost:3001/api/login
+Content-Type: application/json
+
+{
+    "username": "chubert",
+    "password": "senha124"
 }

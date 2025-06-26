@@ -302,50 +302,34 @@ part4
 	4.8 -> 40 minutes total
 		+ 40 minutes | start: 10:50 Jun, 25th 2025 -> finish: 11:30 Jun, 25th 2025
 		
-	4.9 ->  minutes total
-		+  minutes | start: : Jun, th 2025 -> pause: : Jun, th 2025
-		+  minutes | resume: : Jun, th 2025 -> pause: : Jun, th 2025
-		+  minutes | resume: : Jun, th 2025 -> finish: : Jun, th 2025
+	4.9 -> 20 minutes total
+		+ 20 minutes | start: 09:34 Jun, 26th 2025 -> finish: 09:54 Jun, 26th 2025
 		
-	4.10 ->  minutes total
-		+  minutes | start: : Jun, th 2025 -> pause: : Jun, th 2025
-		+  minutes | resume: : Jun, th 2025 -> pause: : Jun, th 2025
-		+  minutes | resume: : Jun, th 2025 -> finish: : Jun, th 2025
+	4.10 -> 26 minutes total
+		+ 26 minutes | start: 09:55 Jun, 26th 2025 -> finish: 10:21 Jun, 26th 2025
 		
-	4.11 ->  minutes total
-		+  minutes | start: : Jun, th 2025 -> pause: : Jun, th 2025
-		+  minutes | resume: : Jun, th 2025 -> pause: : Jun, th 2025
-		+  minutes | resume: : Jun, th 2025 -> finish: : Jun, th 2025
+	4.11 -> 13 minutes total
+		+ 13 minutes | start: 10:22 Jun, 26th 2025 -> finish: 10:35 Jun, 26th 2025
 			
-	4.12 ->  minutes total
-		+  minutes | start: : Jun, th 2025 -> pause: : Jun, th 2025
-		+  minutes | resume: : Jun, th 2025 -> pause: : Jun, th 2025
-		+  minutes | resume: : Jun, th 2025 -> finish: : Jun, th 2025
+	4.12 -> 12 minutes total
+		+ 12 minutes | start: 10:36 Jun, 26th 2025 -> finish: 10:48 Jun, 26th 2025
 		
-	resuming b ->  minutes total
-		+  minutes | start: : Jun, th 2025 -> pause: : Jun, th 2025
-		+  minutes | resume: : Jun, th 2025 -> pause: : Jun, th 2025
-		+  minutes | resume: : Jun, th 2025 -> finish: : Jun, th 2025
+	resuming b -> 16 minutes total
+		+ 16 minutes | start: 10:52 Jun, 26th 2025 -> finish: 11:08 Jun, 26th 2025
 		
-	4.13 ->  minutes total
-		+  minutes | start: : Jun, th 2025 -> pause: : Jun, th 2025
-		+  minutes | resume: : Jun, th 2025 -> pause: : Jun, th 2025
-		+  minutes | resume: : Jun, th 2025 -> finish: : Jun, th 2025
+	4.13 -> 33 minutes total
+		+ 33 minutes | start: 11:09 Jun, 26th 2025 -> finish: 11:42 Jun, 26th 2025
 		
-	4.14 ->  minutes total
-		+  minutes | start: : Jun, th 2025 -> pause: : Jun, th 2025
-		+  minutes | resume: : Jun, th 2025 -> pause: : Jun, th 2025
-		+  minutes | resume: : Jun, th 2025 -> finish: : Jun, th 2025
+	4.14 -> 19 minutes total
+		+ 15 minutes | start: 11:43 Jun, 26th 2025 -> pause: 11:58 Jun, 26th 2025
+		+ 4 minutes | resume: 12:52 Jun, 26th 2025 -> finish: 12:56 Jun, 26th 2025
 		
-	intro c ->  minutes total
-		+  minutes | start: : Jun, th 2025 -> pause: : Jun, th 2025
-		+  minutes | resume: : Jun, th 2025 -> pause: : Jun, th 2025
-		+  minutes | resume: : Jun, th 2025 -> finish: : Jun, th 2025
+	intro c -> 88 minutes total
+		+ 13 minutes | start: 12:58 Jun, 26th 2025 -> pause: 13:11 Jun, 26th 2025
+		+ 75 minutes | resume: 13:19 Jun, 26th 2025 -> finish: 14:34 Jun, 26th 2025
 		
-	intro d ->  minutes total
-		+  minutes | start: : Jun, th 2025 -> pause: : Jun, th 2025
-		+  minutes | resume: : Jun, th 2025 -> pause: : Jun, th 2025
-		+  minutes | resume: : Jun, th 2025 -> finish: : Jun, th 2025
+	intro d -> 57 minutes total
+		+ 57 minutes | start: 14:46 Jun, 26th 2025 -> finish: 15:43 Jun, 26th 2025
 		
 	4.15 ->  minutes total
 		+  minutes | start: : Jun, th 2025 -> pause: : Jun, th 2025
@@ -392,5 +376,5 @@ part4
 		+  minutes | resume: : Jun, th 2025 -> pause: : Jun, th 2025
 		+  minutes | resume: : Jun, th 2025 -> finish: : Jun, th 2025
 
-total = 131 minutes + 62 minutes + 18 minutes + 18 minutes + 11 minutes + 54 minutes + 6 minutes + 119 minutes + 40 minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  ===  minutes ==  hours  minutes ==  hours
+total = 131 minutes + 62 minutes + 18 minutes + 18 minutes + 11 minutes + 54 minutes + 6 minutes + 119 minutes + 40 minutes + 20 minutes + 26 minutes + 13 minutes + 12 minutes + 16 minutes + 33 minutes + 19 minutes + 88 minutes + 57 minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  ===  minutes ==  hours  minutes ==  hours
 extra content =  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes ===  minutes ==  hours  minutes ==  hours

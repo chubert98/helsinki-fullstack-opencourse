@@ -52,6 +52,21 @@ const initialBlogs = [
   }
 ]
 
+const newBlog = {
+  title: 'test adding blog',
+  author: 'Carlos Hubert',
+  url: 'carloshubert.com/test-adding-blog',
+  likes: 0,
+}
+
+const nonExistingId = async () => {
+  const blog = new Blog({ title: 'a', author: 'a', url: 'a', likes: 0 })
+  await blog.save()
+  await blog.deleteOne()
+
+  return blog._id.toString()
+}
+
 const dummy = (blogs) => {
   return 1
 }
@@ -88,4 +103,4 @@ const blogsInDb = async () => {
   return blogs.map(blog => blog.toJSON())
 }
 
-module.exports = { initialBlogs, dummy, totalLikes, favoriteBlog, mostBlogs, mostLikes, blogsInDb }
+module.exports = { initialBlogs, newBlog, nonExistingId, dummy, totalLikes, favoriteBlog, mostBlogs, mostLikes, blogsInDb }

@@ -4,7 +4,9 @@ const config = require('./utils/config')
 const logger = require('./utils/logger')
 const middleware = require('./utils/middleware')
 const notesRouter = require('./controllers/notes')
+const usersRouter = require('./controllers/users')
 const peopleRouter = require('./controllers/people')
+const loginRouter = require('./controllers/login')
 
 const app = express()
 logger.info('connecting to', config.MONGODB_URI)
@@ -40,7 +42,11 @@ $('head > *').each((_, elm) => {
   headTags.push({ name: elm.name, attribs: elm.attribs, text: $(elm).text() })
 })
 
-if (headTags[3].text.toString() === 'Notes') app.use('/api/notes', notesRouter)
+if (headTags[3].text.toString() === 'Notes') {
+  app.use('/api/notes', notesRouter)
+  app.use('/api/users', usersRouter)
+  app.use('/api/login', loginRouter)
+}
 if (headTags[3].text.toString() === 'Phonebook') app.use('/api/people', peopleRouter)
 logger.info('using', headTags[3].text.toString(), 'routes')
 
