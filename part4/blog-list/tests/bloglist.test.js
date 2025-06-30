@@ -2,9 +2,11 @@ const assert = require('node:assert')
 const { test, after, describe, beforeEach } = require('node:test')
 const mongoose = require('mongoose')
 const supertest = require('supertest')
+const bcrypt = require('bcrypt')
 const app = require('../app')
 const listHelper = require('../utils/list_helper')
 const Blog = require('../models/blog')
+const User = require('../models/user')
 
 const api = supertest(app)
 
@@ -12,19 +14,6 @@ beforeEach(async () => {
   await Blog.deleteMany({})
   await Blog.insertMany(listHelper.initialBlogs)
 })
-
-const listWithZeroBlogs = []
-
-const listWithOneBlog = [
-  {
-    _id: '5a422aa71b54a676234d17f8',
-    title: 'Go To Statement Considered Harmful',
-    author: 'Edsger W. Dijkstra',
-    url: 'https://homepages.cwi.nl/~storm/teaching/reader/Dijkstra68.pdf',
-    likes: 5,
-    __v: 0
-  }
-]
 
 describe('when there is initially blogs saved', () => {
   test('blogs are returned as JSON', async () => {
@@ -50,10 +39,13 @@ describe('when there is initially blogs saved', () => {
     test('succeeds with valid data', async () => {
       const response = await api.get('/api/blogs')
       const blogsAtStart = response.body
+      const user = await User.findOne({})
+      const newBlog = listHelper.newBlog
+      newBlog.user = user.id
 
       await api
         .post('/api/blogs')
-        .send(listHelper.newBlog)
+        .send(newBlog)
         .expect(201)
         .expect('Content-Type', /application\/json/)
 
@@ -153,64 +145,85 @@ describe('when there is initially blogs saved', () => {
   })
 })
 
-describe('tutorial tests', () => {
-  test('dummy returns one', () => {
-    const result = listHelper.dummy(listWithZeroBlogs)
-    assert.strictEqual(result, 1)
+describe('when there is initially one user in db', () => {
+  beforeEach(async () => {
+    await User.deleteMany({})
+
+    const passwordHash = await bcrypt.hash('senha124', 10)
+    const user = new User({ username: 'teste', passwordHash })
+
+    await user.save()
   })
 
-  test('of empty list is zero', () => {
-    const result = listHelper.totalLikes(listWithZeroBlogs)
-    assert.strictEqual(result, 0)
-  })
+  test('creation succeeds with a fresh username', async () => {
+    const usersAtStart = await listHelper.usersInDb()
 
-  test('when list has only one blog, equals the likes of that', () => {
-    const result = listHelper.totalLikes(listWithOneBlog)
-    assert.strictEqual(result, 5)
-  })
-
-  test('of a bigger list is calculate right', async () => {
-    const response = await api.get('/api/blogs')
-    const blogs = response.body
-    const result = listHelper.totalLikes(blogs)
-    assert.strictEqual(result, 36)
-  })
-
-  test('of the most likes', async () => {
-    const favorite = {
-      id: "5a422b3a1b54a676234d17f9",
-      title: "Canonical string reduction",
-      author: "Edsger W. Dijkstra",
-      url: "http://www.cs.utexas.edu/~EWD/transcriptions/EWD08xx/EWD808.html",
-      likes: 12
+    const newUser = {
+      username: 'mluukkai',
+      name: 'Matti Luukkainen',
+      password: 'salainen',
     }
 
-    const response = await api.get('/api/blogs')
-    const blogs = response.body
-    const result = listHelper.favoriteBlog(blogs)
-    assert.deepStrictEqual(result, favorite)
+    await api
+      .post('/api/users')
+      .send(newUser)
+      .expect(201)
+      .expect('Content-Type', /application\/json/)
+
+    const usersAtEnd = await listHelper.usersInDb()
+    assert.strictEqual(usersAtEnd.length, usersAtStart.length + 1)
+
+    const usernames = usersAtEnd.map(u => u.username)
+    assert(usernames.includes(newUser.username))
   })
 
-  test('has the most blogs', async () => {
-    const most = {
-      author: "Robert C. Martin",
-      blogs: 3
-    }
-    const response = await api.get('/api/blogs')
-    const blogs = response.body
-    result = listHelper.mostBlogs(blogs)
-    assert.deepStrictEqual(result, most)
+  test('creation fails with proper status code and message if username already taken', async () => {
+    const usersAtStart = await listHelper.usersInDb()
+
+    const result = await api
+      .post('/api/users')
+      .send(listHelper.newUser)
+      .expect(400)
+      .expect('Content-Type', /application\/json/)
+
+    const usersAtEnd = await listHelper.usersInDb()
+    assert(result.body.error.includes('expected `username` to be unique'))
+
+    assert.strictEqual(usersAtEnd.length, usersAtStart.length)
   })
 
-  test('has the most likes', async () => {
-    const most = {
-      author: "Edsger W. Dijkstra",
-      blogs: 17
-    }
-    const response = await api.get('/api/blogs')
-    const blogs = response.body
-    result = listHelper.mostLikes(blogs)
-    assert.deepStrictEqual(result, most)
+  test('creation fails with proper status code and message if username is too short', async () => {
+    const usersAtStart = await listHelper.usersInDb()
+    const newUser = listHelper.newUser
+    newUser.username = 'te'
+
+    const result = await api
+      .post('/api/users')
+      .send(newUser)
+      .expect(400)
+      .expect('Content-Type', /application\/json/)
+
+    const usersAtEnd = await listHelper.usersInDb()
+    assert(result.body.error.includes('is shorter than the minimum allowed length '))
+
+    assert.strictEqual(usersAtEnd.length, usersAtStart.length)
+  })
+
+  test('creation fails with proper status code and message if password is too short', async () => {
+    const usersAtStart = await listHelper.usersInDb()
+    const newUser = listHelper.newUser
+    newUser.password = 'se'
+
+    const result = await api
+      .post('/api/users')
+      .send(newUser)
+      .expect(400)
+      .expect('Content-Type', /application\/json/)
+
+    const usersAtEnd = await listHelper.usersInDb()
+    assert(result.body.error.includes('is shorter than the minimum allowed length '))
+
+    assert.strictEqual(usersAtEnd.length, usersAtStart.length)
   })
 })
 

@@ -3,6 +3,7 @@ GET http://localhost:3003/api/blogs
 ###
 POST http://localhost:3003/api/blogs
 Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNodWJlcnQiLCJpZCI6IjY4NWQ4YjhhZGE0MGY2MWFkOTNmN2UwYiIsImlhdCI6MTc1MTMwMjQwMywiZXhwIjoxNzUxMzA2MDAzfQ.Od4W7KuGk4f7GERb8Dji5VxH833IhnLPInWuIq7EEsg
 
 {
     "title": "backend test",
@@ -10,3 +11,26 @@ Content-Type: application/json
     "url": "teste.com.br",
     "likes": 0
 }
+
+###
+POST http://localhost:3003/api/users
+Content-Type: application/json
+
+{
+    "username": "te",
+    "name": "teste",
+    "password": "senha124"
+}
+
+###
+POST http://localhost:3003/api/login
+Content-Type: application/json
+
+{
+    "username": "chubert",
+    "password": "senha124"
+}
+
+###
+DELETE http://localhost:3003/api/blogs/6862c261fcfa2a67bdcd4d62
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNodWJlcnQiLCJpZCI6IjY4NWQ4YjhhZGE0MGY2MWFkOTNmN2UwYiIsImlhdCI6MTc1MTMwMzQzOCwiZXhwIjoxNzUxMzA3MDM4fQ.g3IO05JML4NYDBl1MLInH1KPvSx8oC06PNlA-79WLso

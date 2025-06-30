@@ -331,43 +331,29 @@ part4
 	intro d -> 57 minutes total
 		+ 57 minutes | start: 14:46 Jun, 26th 2025 -> finish: 15:43 Jun, 26th 2025
 		
-	4.15 ->  minutes total
-		+  minutes | start: : Jun, th 2025 -> pause: : Jun, th 2025
-		+  minutes | resume: : Jun, th 2025 -> pause: : Jun, th 2025
-		+  minutes | resume: : Jun, th 2025 -> finish: : Jun, th 2025
+	4.15 -> 8 minutes total
+		+ 8 minutes | start: 10:42 Jun, 30th 2025 -> finish: 10:50 Jun, 30th 2025
 		
-	4.16 ->  minutes total
-		+  minutes | start: : Jun, th 2025 -> pause: : Jun, th 2025
-		+  minutes | resume: : Jun, th 2025 -> pause: : Jun, th 2025
-		+  minutes | resume: : Jun, th 2025 -> finish: : Jun, th 2025
+	4.16 -> 26 minutes total
+		+ 26 minutes | start: 10:50 Jun, 30th 2025 -> finish: 11:16 Jun, 30th 2025
 		
-	4.17 ->  minutes total
-		+  minutes | start: : Jun, th 2025 -> pause: : Jun, th 2025
-		+  minutes | resume: : Jun, th 2025 -> pause: : Jun, th 2025
-		+  minutes | resume: : Jun, th 2025 -> finish: : Jun, th 2025
+	4.17 -> 24 minutes total
+		+ 24 minutes | start: 11:17 Jun, 30th 2025 -> finish: 11:41 Jun, 30th 2025
 		
-	4.18 ->  minutes total
-		+  minutes | start: : Jun, th 2025 -> pause: : Jun, th 2025
-		+  minutes | resume: : Jun, th 2025 -> pause: : Jun, th 2025
-		+  minutes | resume: : Jun, th 2025 -> finish: : Jun, th 2025
+	4.18 -> 8 minutes total
+		+ 8 minutes | start: 11:41 Jun, 30th 2025 -> finish: 11:49 Jun, 30th 2025
 		
-	4.19 ->  minutes total
-		+  minutes | start: : Jun, th 2025 -> pause: : Jun, th 2025
-		+  minutes | resume: : Jun, th 2025 -> pause: : Jun, th 2025
-		+  minutes | resume: : Jun, th 2025 -> finish: : Jun, th 2025
+	4.19 -> 8 minutes total
+		+ 8 minutes | start: 11:49 Jun, 30th 2025 -> finish: 11:57 Jun, 30th 2025
 		
-	4.20 ->  minutes total
-		+  minutes | start: : Jun, th 2025 -> pause: : Jun, th 2025
-		+  minutes | resume: : Jun, th 2025 -> pause: : Jun, th 2025
-		+  minutes | resume: : Jun, th 2025 -> finish: : Jun, th 2025
+	4.20 -> 58 minutes total
+		+ 58 minutes | start: 13:01 Jun, th 2025 -> finish: 13:59 Jun, 30th 2025
 		
-	4.21 ->  minutes total
-		+  minutes | start: : Jun, th 2025 -> pause: : Jun, th 2025
-		+  minutes | resume: : Jun, th 2025 -> pause: : Jun, th 2025
-		+  minutes | resume: : Jun, th 2025 -> finish: : Jun, th 2025
+	4.21 -> 14 minutes total
+		+ 14 minutes | start: 14:01 Jun, 30th 2025 -> finish: 14:15 Jun, 30th 2025
 		
 	4.22 ->  minutes total
-		+  minutes | start: : Jun, th 2025 -> pause: : Jun, th 2025
+		+  minutes | start: 14:18 Jun, 30th 2025 -> pause: : Jun, th 2025
 		+  minutes | resume: : Jun, th 2025 -> pause: : Jun, th 2025
 		+  minutes | resume: : Jun, th 2025 -> finish: : Jun, th 2025
 		
@@ -376,5 +362,5 @@ part4
 		+  minutes | resume: : Jun, th 2025 -> pause: : Jun, th 2025
 		+  minutes | resume: : Jun, th 2025 -> finish: : Jun, th 2025
 
-total = 131 minutes + 62 minutes + 18 minutes + 18 minutes + 11 minutes + 54 minutes + 6 minutes + 119 minutes + 40 minutes + 20 minutes + 26 minutes + 13 minutes + 12 minutes + 16 minutes + 33 minutes + 19 minutes + 88 minutes + 57 minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  ===  minutes ==  hours  minutes ==  hours
+total = 131 minutes + 62 minutes + 18 minutes + 18 minutes + 11 minutes + 54 minutes + 6 minutes + 119 minutes + 40 minutes + 20 minutes + 26 minutes + 13 minutes + 12 minutes + 16 minutes + 33 minutes + 19 minutes + 88 minutes + 57 minutes + 8 minutes + 26 minutes + 24 minutes + 8 minutes + 8 minutes + 58 minutes + 14 minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  ===  minutes ==  hours  minutes ==  hours
 extra content =  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes ===  minutes ==  hours  minutes ==  hours
