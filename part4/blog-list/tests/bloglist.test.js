@@ -16,6 +16,17 @@ beforeEach(async () => {
 })
 
 describe('when there is initially blogs saved', () => {
+  let authToken
+  beforeEach(async () => {
+    const response = await api
+      .post('/api/login')
+      .send(listHelper.testUser)
+      .expect(200)
+      .expect('Content-Type', /application\/json/)
+
+    authToken = response.body.token
+  })
+
   test('blogs are returned as JSON', async () => {
     await api
     .get('/api/blogs')
@@ -45,6 +56,7 @@ describe('when there is initially blogs saved', () => {
 
       await api
         .post('/api/blogs')
+        .set('Authorization', `Bearer ${authToken}`)
         .send(newBlog)
         .expect(201)
         .expect('Content-Type', /application\/json/)
@@ -62,6 +74,7 @@ describe('when there is initially blogs saved', () => {
 
       await api
         .post('/api/blogs')
+        .set('Authorization', `Bearer ${authToken}`)
         .send(newBlog)
         .expect(400)
     })
@@ -73,6 +86,7 @@ describe('when there is initially blogs saved', () => {
       let result = []
       let response = await api
         .post('/api/blogs')
+        .set('Authorization', `Bearer ${authToken}`)
         .send(newBlog)
 
       result.push(response.status)
@@ -82,10 +96,20 @@ describe('when there is initially blogs saved', () => {
 
       response = await api
         .post('/api/blogs')
+        .set('Authorization', `Bearer ${authToken}`)
         .send(newBlog)
       result.push(response.status)
 
       assert.deepStrictEqual(result, [ 400, 400 ])
+    })
+
+     test('fails with status code 401 if token is missing', async () => {
+      const newBlog = listHelper.newBlog
+
+      await api
+        .post('/api/blogs')
+        .send(newBlog)
+        .expect(401)
     })
   })
 
@@ -96,6 +120,7 @@ describe('when there is initially blogs saved', () => {
 
       await api
         .delete(`/api/blogs/${blogToDelete.id}`)
+        .set('Authorization', `Bearer ${authToken}`)
         .expect(204)
 
       const blogsAtEnd = await listHelper.blogsInDb()
@@ -150,7 +175,11 @@ describe('when there is initially one user in db', () => {
     await User.deleteMany({})
 
     const passwordHash = await bcrypt.hash('senha124', 10)
-    const user = new User({ username: 'teste', passwordHash })
+    const user = new User({
+      _id: "6862d3d2b9cb3bb5027a359e",
+      username: 'teste',
+      passwordHash
+    })
 
     await user.save()
   })
