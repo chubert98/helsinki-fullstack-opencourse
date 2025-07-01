@@ -362,6 +362,143 @@ total = 131 minutes + 62 minutes + 18 minutes + 18 minutes + 11 minutes + 54 min
 extra content === 0 minutes == 0 hours 0 minutes == 0 hours
 
 part5
+	intro a -> 44 minutes total
+		+ 44 minutes | start: 09:50 Jul, 1st 2025 -> finish: 10:34 Jul, 1st 2025
+		
+	5.1 -> 46 minutes total
+		+ 46 minutes | start: 10:48 Jul, 1st 2025 ->  finish: 11:34 Jul, 1st 2025
+		
+	5.2 -> 4 minutes total
+		+ 4 minutes | start: 11:34 Jul, 1st 2025 -> finish: 11:38 Jul, 1st 2025
+		
+	5.3 -> 34 minutes total
+		+ 21 minutes | start: 11:39 Jul, 1st 2025 -> pause: 12:00 Jul, 1st 2025
+		+ 13 minutes | resume: 12:57 Jul, 1st 2025 -> finish: 13:10 Jul, 1st 2025
+	
+	5.4 -> 14 minutes total
+		+ 14 minutes | start: 13:12 Jul, 1st 2025 -> finish: 13:26 Jul, 1st 2025
 
+	resuming a -> 2 minutes total
+		+ 2 minutes | start: 13:27 Jul, 1st 2025 -> finish: 13:29 Jul, 1st 2025
+		
+	intro b -> 56 minutes total
+		+ 56 minutes | start: 13:31 Jul, 1st 2025 -> finish: 14:35 Jul, 1st 2025
+		
+	5.5 ->  minutes total
+		+  minutes | start: : Jul, th 2025 -> pause: : Jul, th 2025
+		+  minutes | resume: : Jul, th 2025 -> pause: : Jul, th 2025
+		+  minutes | resume: : Jul, th 2025 -> finish: : Jul, th 2025
+		
+	5.6 ->  minutes total
+		+  minutes | start: : Jul, th 2025 -> pause: : Jul, th 2025
+		+  minutes | resume: : Jul, th 2025 -> pause: : Jul, th 2025
+		+  minutes | resume: : Jul, th 2025 -> finish: : Jul, th 2025
+		
+	5.7 ->  minutes total
+		+  minutes | start: : Jul, th 2025 -> pause: : Jul, th 2025
+		+  minutes | resume: : Jul, th 2025 -> pause: : Jul, th 2025
+		+  minutes | resume: : Jul, th 2025 -> finish: : Jul, th 2025
+		
+	5.8 ->  minutes total
+		+  minutes | start: : Jul, th 2025 -> pause: : Jul, th 2025
+		+  minutes | resume: : Jul, th 2025 -> pause: : Jul, th 2025
+		+  minutes | resume: : Jul, th 2025 -> finish: : Jul, th 2025
+		
+	5.9 ->  minutes total
+		+  minutes | start: : Jul, th 2025 -> pause: : Jul, th 2025
+		+  minutes | resume: : Jul, th 2025 -> pause: : Jul, th 2025
+		+  minutes | resume: : Jul, th 2025 -> finish: : Jul, th 2025
+		
+	5.10 ->  minutes total
+		+  minutes | start: : Jul, th 2025 -> pause: : Jul, th 2025
+		+  minutes | resume: : Jul, th 2025 -> pause: : Jul, th 2025
+		+  minutes | resume: : Jul, th 2025 -> finish: : Jul, th 2025
+		
+	5.11 ->  minutes total
+		+  minutes | start: : Jul, th 2025 -> pause: : Jul, th 2025
+		+  minutes | resume: : Jul, th 2025 -> pause: : Jul, th 2025
+		+  minutes | resume: : Jul, th 2025 -> finish: : Jul, th 2025
 
+	resuming b ->  minutes total
+		+  minutes | start: : Jul, th 2025 -> pause: : Jul, th 2025
+		+  minutes | resume: : Jul, th 2025 -> pause: : Jul, th 2025
+		+  minutes | resume: : Jul, th 2025 -> finish: : Jul, th 2025
+	
+	5.12 ->  minutes total
+		+  minutes | start: : Jul, th 2025 -> pause: : Jul, th 2025
+		+  minutes | resume: : Jul, th 2025 -> pause: : Jul, th 2025
+		+  minutes | resume: : Jul, th 2025 -> finish: : Jul, th 2025
+
+	intro c ->  minutes total
+		+  minutes | start: : Jul, th 2025 -> pause: : Jul, th 2025
+		+  minutes | resume: : Jul, th 2025 -> pause: : Jul, th 2025
+		+  minutes | resume: : Jul, th 2025 -> finish: : Jul, th 2025
+		
+	5.13 ->  minutes total
+		+  minutes | start: : Jul, th 2025 -> pause: : Jul, th 2025
+		+  minutes | resume: : Jul, th 2025 -> pause: : Jul, th 2025
+		+  minutes | resume: : Jul, th 2025 -> finish: : Jul, th 2025
+		
+	5.14 ->  minutes total
+		+  minutes | start: : Jul, th 2025 -> pause: : Jul, th 2025
+		+  minutes | resume: : Jul, th 2025 -> pause: : Jul, th 2025
+		+  minutes | resume: : Jul, th 2025 -> finish: : Jul, th 2025
+		
+	5.15 ->  minutes total
+		+  minutes | start: : Jul, th 2025 -> pause: : Jul, th 2025
+		+  minutes | resume: : Jul, th 2025 -> pause: : Jul, th 2025
+		+  minutes | resume: : Jul, th 2025 -> finish: : Jul, th 2025
+		
+	5.16 ->  minutes total
+		+  minutes | start: : Jul, th 2025 -> pause: : Jul, th 2025
+		+  minutes | resume: : Jul, th 2025 -> pause: : Jul, th 2025
+		+  minutes | resume: : Jul, th 2025 -> finish: : Jul, th 2025
+
+	resuming c ->  minutes total
+		+  minutes | start: : Jul, th 2025 -> pause: : Jul, th 2025
+		+  minutes | resume: : Jul, th 2025 -> pause: : Jul, th 2025
+		+  minutes | resume: : Jul, th 2025 -> finish: : Jul, th 2025
+		
+	intro d OR intro e ->  minutes total
+		+  minutes | start: : Jul, th 2025 -> pause: : Jul, th 2025
+		+  minutes | resume: : Jul, th 2025 -> pause: : Jul, th 2025
+		+  minutes | resume: : Jul, th 2025 -> finish: : Jul, th 2025
+		
+	5.17 ->  minutes total
+		+  minutes | start: : Jul, th 2025 -> pause: : Jul, th 2025
+		+  minutes | resume: : Jul, th 2025 -> pause: : Jul, th 2025
+		+  minutes | resume: : Jul, th 2025 -> finish: : Jul, th 2025
+		
+	5.18 ->  minutes total
+		+  minutes | start: : Jul, th 2025 -> pause: : Jul, th 2025
+		+  minutes | resume: : Jul, th 2025 -> pause: : Jul, th 2025
+		+  minutes | resume: : Jul, th 2025 -> finish: : Jul, th 2025
+		
+	5.19 ->  minutes total
+		+  minutes | start: : Jul, th 2025 -> pause: : Jul, th 2025
+		+  minutes | resume: : Jul, th 2025 -> pause: : Jul, th 2025
+		+  minutes | resume: : Jul, th 2025 -> finish: : Jul, th 2025
+		
+	5.20 ->  minutes total
+		+  minutes | start: : Jul, th 2025 -> pause: : Jul, th 2025
+		+  minutes | resume: : Jul, th 2025 -> pause: : Jul, th 2025
+		+  minutes | resume: : Jul, th 2025 -> finish: : Jul, th 2025
+		
+	5.21 ->  minutes total
+		+  minutes | start: : Jul, th 2025 -> pause: : Jul, th 2025
+		+  minutes | resume: : Jul, th 2025 -> pause: : Jul, th 2025
+		+  minutes | resume: : Jul, th 2025 -> finish: : Jul, th 2025
+		
+	5.22 ->  minutes total
+		+  minutes | start: : Jul, th 2025 -> pause: : Jul, th 2025
+		+  minutes | resume: : Jul, th 2025 -> pause: : Jul, th 2025
+		+  minutes | resume: : Jul, th 2025 -> finish: : Jul, th 2025
+		
+	5.23 ->  minutes total
+		+  minutes | start: : Jul, th 2025 -> pause: : Jul, th 2025
+		+  minutes | resume: : Jul, th 2025 -> pause: : Jul, th 2025
+		+  minutes | resume: : Jul, th 2025 -> finish: : Jul, th 2025
+	
+
+total = 44 minutes + 46 minutes + 4 minutes + 34 minutes + 14 minutes + 2 minutes + 56 minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes ===  minutes ==  hours  minutes ==  hours
 extra content =  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes ===  minutes ==  hours  minutes ==  hours
