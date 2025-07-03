@@ -20,7 +20,7 @@ const LoginForm = ({ logIn, errorDisplay }) => {
       logIn(user)
       setUsername('')
       setPassword('')
-    } catch (exception) {
+    } catch (e) {
       errorDisplay('Wrong credentials')
     }
   }

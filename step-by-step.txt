@@ -1,6 +1,8 @@
 NEW REACT FRONTEND
-npm create vite@latest [name] -- --template react
-
+-npm create vite@latest [name] -- --template react
+-npm install
+-npm install prop-types (define props as required)
+-npm update
 
 NEW NODE BACKEND
 -npm init
