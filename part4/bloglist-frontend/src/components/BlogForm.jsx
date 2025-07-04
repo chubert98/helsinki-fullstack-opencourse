@@ -32,7 +32,7 @@ const BlogForm = ({ addBlog, messageDisplay }) => {
             id="Title"
             name="Title"
             value={newTitle}
-            onChange={ () => setNewTitle(event.target.value) }
+            onChange={ (event) => setNewTitle(event.target.value) }
             required
           />
         </div>
@@ -43,7 +43,7 @@ const BlogForm = ({ addBlog, messageDisplay }) => {
             id="Author"
             name="Author"
             value={newAuthor}
-            onChange={ () => setNewAuthor(event.target.value) }
+            onChange={ (event) => setNewAuthor(event.target.value) }
             required
           />
         </div>
@@ -54,7 +54,7 @@ const BlogForm = ({ addBlog, messageDisplay }) => {
             id="Url"
             name="Url"
             value={newUrl}
-            onChange={ () => setNewUrl(event.target.value) }
+            onChange={ (event) => setNewUrl(event.target.value) }
             required
           />
         </div>

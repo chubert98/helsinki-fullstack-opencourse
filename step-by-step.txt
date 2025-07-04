@@ -2,6 +2,38 @@ NEW REACT FRONTEND
 -npm create vite@latest [name] -- --template react
 -npm install
 -npm install prop-types (define props as required)
+-npm install --save-dev vitest jsdom (simulate we browser [testing react])
+  -npm install --save-dev @testing-library/react @testing-library/jest-dom
+  -npm install --save-dev eslint-plugin-vitest-globals
+  -npm install --save-dev @testing-library/user-event
+  -configure package.json file
+    {
+      "scripts": {
+        //...
+        "test": "vitest run"
+      }
+      //...
+    }
+  -configure vite.config.js
+    {
+      //...
+      test: {
+        environment: 'jsdom',
+        globals: true,
+        setupFiles: './testSetup.js'
+      }
+    }
+  -configure .eslintrc.cjs
+    {
+      env: {
+        //...,
+        "vitest-globals/env": true
+      },
+      extends: [
+        //...,
+        'plugin:vitest-globals/recommended'
+      ]
+    }
 -npm update
 
 NEW NODE BACKEND

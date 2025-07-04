@@ -13,7 +13,6 @@ const Blog = ({ blog, addLike, deleteBlog }) => {
   }
 
   const toggleVisibility = (event) => {
-
     if (blogVisibility === 'view') setBlogVisibility('hide')
     if (blogVisibility === 'hide') setBlogVisibility('view')
   }
@@ -35,11 +34,14 @@ const Blog = ({ blog, addLike, deleteBlog }) => {
   }
 
   return (
-    <div style={blogStyle}>
+    <div className="blogDiv" style={blogStyle}>
       <p>Title: {blog.title} | Author: {blog.author}
         <button onClick={() => toggleVisibility()}>{blogVisibility}</button>
       </p>
-      <div style={blogVisibility === 'view' ? {display:'none'} : {display:'block'}}>
+      <div
+        className="detailsDiv"
+        style={blogVisibility === 'view' ? {display:'none'} : {display:'block'}}
+      >
         <p>{blog.url}</p>
         <p>likes {blog.likes}<button onClick={() => newLike()}>like</button></p>
         <p>{blog.user.name}</p>
