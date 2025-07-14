@@ -423,9 +423,8 @@ part5
 		+ 2 minutes | start: 14:41 Jul, 4th 2025 -> finish: 14:43 Jul, 4th 2025
 		
 	intro d ->  minutes total
-		+  minutes | start: : Jul, th 2025 -> pause: : Jul, th 2025
-		+  minutes | resume: : Jul, th 2025 -> pause: : Jul, th 2025
-		+  minutes | resume: : Jul, th 2025 -> finish: : Jul, th 2025
+		+  minutes | start: 10:33 Jul, 14th 2025 -> pause: 11:58 Jul, 14th 2025
+		+  minutes | resume: 13:33 Jul, 14th 2025 -> finish: 15:18 Jul, 14th 2025
 		
 	5.17 ->  minutes total
 		+  minutes | start: : Jul, th 2025 -> pause: : Jul, th 2025
