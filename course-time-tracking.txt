@@ -422,14 +422,21 @@ part5
 	resuming c -> 2 minutes total
 		+ 2 minutes | start: 14:41 Jul, 4th 2025 -> finish: 14:43 Jul, 4th 2025
 		
-	intro d ->  minutes total
-		+  minutes | start: 10:33 Jul, 14th 2025 -> pause: 11:58 Jul, 14th 2025
-		+  minutes | resume: 13:33 Jul, 14th 2025 -> finish: 15:18 Jul, 14th 2025
+	intro d -> 190 minutes total
+		+ 85 minutes | start: 10:33 Jul, 14th 2025 -> pause: 11:58 Jul, 14th 2025
+		+ 105 minutes | resume: 13:33 Jul, 14th 2025 -> finish: 15:18 Jul, 14th 2025
 		
-	5.17 ->  minutes total
-		+  minutes | start: : Jul, th 2025 -> pause: : Jul, th 2025
-		+  minutes | resume: : Jul, th 2025 -> pause: : Jul, th 2025
-		+  minutes | resume: : Jul, th 2025 -> finish: : Jul, th 2025
+	[Playwright documentation] -> 47 minutes total
+		[locators] -> 29 minutes total
+			+ 29 minutes | start: 09:55 Jul, 15th 2025 -> finish: 10:24 Jul, 15th 2025
+		[actions] -> 7 minutes total
+			+ 7 minutes | start: 10:33 Jul, 15th 2025 -> finish: 10:40 Jul, 15th 2025
+		[assertions] -> 11 minutes total
+			+ 11 minutes | start: 10:41 Jul, 15th 2025 -> finish: 10:52 Jul, 15th 2025
+		
+	5.17 -> 24 minutes total
+		+ 22 minutes | start: 11:31 Jul, 15th 2025 -> pause: 11:53 Jul, 15th 2025
+		+ 2 minutes | resume: 13:32 Jul, 15th 2025 -> finish: 13:34 Jul, 15th 2025
 		
 	5.18 ->  minutes total
 		+  minutes | start: : Jul, th 2025 -> pause: : Jul, th 2025
@@ -462,5 +469,5 @@ part5
 		+  minutes | resume: : Jul, th 2025 -> finish: : Jul, th 2025
 	
 
-total = 44 minutes + 46 minutes + 4 minutes + 34 minutes + 14 minutes + 2 minutes + 56 minutes + 71 minutes + 53 minutes + 6 minutes + 28 minutes + 46 minutes + 86 minutes + 24 minutes + 19 minutes + 10 minutes + 26 minutes + 2 minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes ===  minutes ==  hours  minutes ==  hours
-extra content =  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes ===  minutes ==  hours  minutes ==  hours
+total = 44 minutes + 46 minutes + 4 minutes + 34 minutes + 14 minutes + 2 minutes + 56 minutes + 71 minutes + 53 minutes + 6 minutes + 28 minutes + 46 minutes + 86 minutes + 24 minutes + 19 minutes + 10 minutes + 26 minutes + 2 minutes + 190 minutes + 24 minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes ===  minutes ==  hours  minutes ==  hours
+extra content = 47 minutes +  minutes +  minutes +  minutes +  minutes +  minutes +  minutes ===  minutes ==  hours  minutes ==  hours

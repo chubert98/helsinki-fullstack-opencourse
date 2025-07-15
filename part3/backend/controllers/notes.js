@@ -48,7 +48,7 @@ notesRouter.post('/', async (request, response) => {
   console.log('testes', user._id, '-', user.id)
   const note = new Note({
     content: body.content,
-    important: body.important || false,
+    important: Boolean(body.important) || false,
     user: user._id
   })
 

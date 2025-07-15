@@ -40,7 +40,7 @@ NEW NODE BACKEND
 -npm init
 -npm install
 -configure package.json
-  - ""start": "node index.js",
+  - "start": "node index.js",
   - "dev": "node --watch index.js",
   -(optional) "build:ui:[name]": "rm -rf dist && cd ../../part[x]/[frontend-name] && npm run build && cp -r dist ../../part[x]/[name] && cd ../../part[x]/[name] && npm run dev",
 -npm install express
@@ -58,3 +58,12 @@ NEW NODE BACKEND
   -create [name].rest at requests
   -create config.js, logger.js and middleware.js at utils
 -configure fies accordingly (should use previous projects as reference)
+
+NEW E2E TESTING
+- npm init plawright@latest
+- configure package.json
+  - {"scripts: ...,
+      "test": "playwright test",
+      "test:report": "playwright show-report"
+  },
+- define router to reset test database

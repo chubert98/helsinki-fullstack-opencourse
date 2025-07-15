@@ -3,7 +3,7 @@ const { loginWith, createNote } = require('./helper')
 
 describe('Note app', () => {
   beforeEach(async ({ page, request }) => {
-    await request.post('/api/testing/reset')
+    await request.post('/api/testing/reset/notes')
 
     await request.post('/api/users', {
       data: {
@@ -67,7 +67,6 @@ describe('Note app', () => {
       })
 
       test.only('importance can be changed', async ({ page }) => {
-        await page.pause()
         const otherNoteText = await page.getByText('second note')
         const otherNoteElement = await otherNoteText.locator('..')
         await otherNoteElement.getByRole('button', { name: 'make important'}).click()
