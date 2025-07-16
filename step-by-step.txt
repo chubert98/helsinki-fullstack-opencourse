@@ -67,3 +67,5 @@ NEW E2E TESTING
       "test:report": "playwright show-report"
   },
 - define router to reset test database
+- configure package.json on backend project
+-run backend with "npm run start:test"

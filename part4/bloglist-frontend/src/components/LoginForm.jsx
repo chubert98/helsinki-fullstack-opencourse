@@ -30,7 +30,7 @@ const LoginForm = ({ handleLogin, messageDisplay }) => {
         <div>
           <label htmlFor="Username">Username:</label>
           <input
-            data-testid="Username"
+            data-testid="username"
             type="text"
             id="Username"
             name="Username"
@@ -42,7 +42,7 @@ const LoginForm = ({ handleLogin, messageDisplay }) => {
         <div>
           <label htmlFor="Password">Password:</label>
           <input
-            data-testid="Password"
+            data-testid="password"
             type="password"
             id="Password"
             name="Password"
